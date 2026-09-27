@@ -2,7 +2,7 @@
 
 [English](README.md) | **Italiano**
 
-acrk-tray è una piccola app per Windows di **ACR Challenge**, le classifiche e le sfide della
+acrk-tray è una piccola app per Windows di **ACRK Challenge**, le classifiche e le sfide della
 community di **Assetto Corsa Rally** su <https://ch.acrkhotlap.workers.dev>. Sta nell'area di
 notifica, legge ogni prova che concludi direttamente dal gioco e manda il tempo al sito:
 niente da scrivere, niente screenshot da caricare.
@@ -114,7 +114,7 @@ Get-FileHash .\acrk-tray-0.5.0-setup.exe -Algorithm SHA256
 
 ## Avvertenza
 
-Progetto non ufficiale della community. acrk-tray e ACR Challenge non sono affiliati,
+Progetto non ufficiale della community. acrk-tray e ACRK Challenge non sono affiliati,
 approvati o associati ad Assetto Corsa Rally o ai suoi sviluppatori (Supernova Games Studios,
 Kunos Simulazioni) o al suo editore (505 Games). È un'iniziativa di appassionati, portata
 avanti dalla community. Tutti i marchi appartengono ai rispettivi proprietari.

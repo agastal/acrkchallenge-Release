@@ -2,7 +2,7 @@
 
 **English** | [Italiano](README.it.md)
 
-acrk-tray is a small Windows app for **ACR Challenge**, the community leaderboards and
+acrk-tray is a small Windows app for **ACRK Challenge**, the community leaderboards and
 challenges for **Assetto Corsa Rally** at <https://ch.acrkhotlap.workers.dev>. It sits in the
 notification area, reads each stage you finish straight from the game and sends the time to
 the site: no typing, no screenshots to upload.
@@ -112,7 +112,7 @@ Get-FileHash .\acrk-tray-0.5.0-setup.exe -Algorithm SHA256
 
 ## Disclaimer
 
-Unofficial community project. acrk-tray and ACR Challenge are not affiliated with, endorsed
+Unofficial community project. acrk-tray and ACRK Challenge are not affiliated with, endorsed
 by, or associated with Assetto Corsa Rally or its developers (Supernova Games Studios,
 Kunos Simulazioni) or its publisher (505 Games). This is a fan-run, community effort. All
 trademarks are the property of their respective owners.
