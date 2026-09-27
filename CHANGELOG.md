@@ -5,6 +5,21 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.6.1] - 2026-09-27
+
+A restart no longer loses the next attempt of a challenge with more than one.
+
+### Fixed
+
+- On a challenge with more than one attempt, restarting the stage retired the attempt and
+  stopped the recording, so the run you drove next was never seen. Now the app arms the next
+  attempt at once and keeps recording: the run that starts after the restart is that attempt,
+  and a notification says so (*restarted. Attempt 2 of 3 is armed*).
+
+### Changed
+
+- The Challenges window is narrower and taller.
+
 ## [0.6.0] - 2026-09-27
 
 Sounds and warnings for what happens while you drive, and more control over how the app starts.

@@ -5,6 +5,21 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.6.1] - 2026-09-27
+
+Un riavvio non fa più perdere il tentativo successivo di una sfida che ne ha più di uno.
+
+### Correzioni
+
+- In una sfida con più tentativi, riavviare la prova ritirava il tentativo e fermava la
+  registrazione, così la prova guidata subito dopo non veniva vista. Ora l'app arma subito il
+  tentativo successivo e continua a registrare: la prova che parte dopo il riavvio è quel
+  tentativo, e una notifica lo dice (*riavvio. Il tentativo 2 di 3 è armato*).
+
+### Modifiche
+
+- La finestra Sfide è più stretta e più alta.
+
 ## [0.6.0] - 2026-09-27
 
 Suoni e avvisi per quello che succede mentre guidi, e più controllo su come parte l'app.
