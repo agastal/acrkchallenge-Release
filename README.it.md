@@ -7,6 +7,10 @@ community di **Assetto Corsa Rally** su <https://ch.acrkhotlap.workers.dev>. Sta
 notifica, legge ogni prova che concludi direttamente dal gioco e manda il tempo al sito:
 niente da scrivere, niente screenshot da caricare.
 
+> **Nessun dato personale.** acrk-tray non chiede e-mail, account o password, non legge niente
+> del tuo PC (nome del computer, utente Windows, hardware) e non traccia niente. Al sito arrivano
+> solo il nome pilota che scegli e i dati delle tue prove: vedi [Privacy e dati](#privacy-e-dati).
+
 > Repository ufficiale di distribuzione: installer, changelog e documentazione. Il codice
 > sorgente non è pubblicato qui.
 
@@ -42,7 +46,10 @@ da link condivisi altrove.
 - Assetto Corsa Rally sullo stesso PC, meglio in modalità finestra senza bordi ("schermo
   intero in finestra"): il perché è in [Privacy e dati](https://github.com/agastal/acrkchallenge-Release/wiki/Privacy-e-dati).
 
-Il setup installa solo per il tuo utente Windows e non chiede i diritti di amministratore.
+Il setup installa solo per il tuo utente Windows e non chiede i diritti di amministratore;
+nient'altro da installare (niente .NET, niente runtime di Visual C++). L'app usa circa 20 MB di
+memoria e quasi niente CPU. Spazio su disco, rete e come disinstallarla senza lasciare niente:
+[Requisiti e risorse](https://github.com/agastal/acrkchallenge-Release/wiki/Requisiti-e-risorse).
 
 ## Per iniziare
 

@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.6.2] - 2026-09-27
+
+Le sessioni registrate non riempiono più il disco.
+
+### Modifiche
+
+- Le sessioni registrate (circa 85 MB per ora di guida) le pulisce l'app: all'inizio di ogni
+  sessione cancella quelle più vecchie di 30 giorni, poi le più vecchie finché il resto sta in
+  500 MB.
+
 ## [0.6.1] - 2026-09-27
 
 Un riavvio non fa più perdere il tentativo successivo di una sfida che ne ha più di uno.

@@ -7,6 +7,10 @@ challenges for **Assetto Corsa Rally** at <https://ch.acrkhotlap.workers.dev>. I
 notification area, reads each stage you finish straight from the game and sends the time to
 the site: no typing, no screenshots to upload.
 
+> **No personal data.** acrk-tray asks for no e-mail, account or password, reads nothing about
+> your PC (computer name, Windows user, hardware) and tracks nothing. Only the driver name you
+> choose and the data of your runs reach the site: see [Privacy and data](#privacy-and-data).
+
 > Official binary-distribution repository: installer, changelog and documentation. The
 > source code is not published here.
 
@@ -42,7 +46,10 @@ mirrors or links shared elsewhere.
 - Assetto Corsa Rally on the same PC, best in borderless window mode ("full screen
   windowed"): see [Privacy and data](https://github.com/agastal/acrkchallenge-Release/wiki/Privacy-and-data) for why.
 
-The setup installs for your Windows user only and does not ask for administrator rights.
+The setup installs for your Windows user only and does not ask for administrator rights; nothing
+else to install (no .NET, no Visual C++ runtime). The app uses about 20 MB of memory and next to
+no CPU. Disk space, network and how to uninstall without leaving anything behind:
+[Requirements and resources](https://github.com/agastal/acrkchallenge-Release/wiki/Requirements-and-resources).
 
 ## Getting started
 
