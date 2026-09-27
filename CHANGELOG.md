@@ -5,6 +5,31 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.6.0] - 2026-09-27
+
+Sounds and warnings for what happens while you drive, and more control over how the app starts.
+
+### New
+
+- A warning with a sound **before the start** when the game is loading a different stage from
+  the challenge's: go back to the menu, or the attempt is retired.
+- Sounds for the outcome of each run (time received, attempt closed, retirement, warning,
+  error), since Windows holds notifications back while the game is full screen.
+- Intermediate times are read from the game and sent with each run.
+- **Settings**: "Start acrk-tray when I sign in to Windows" and "Check for new versions once a
+  day", both can be switched off.
+
+### Changed
+
+- Closing the game during a stage now retires the attempt (reason "closed"), and the session
+  waits for the game to start again.
+- The icon in the notification area is the app's stopwatch in grey while idle.
+- The mark shortcut is gone: only start and stop remain.
+- The Challenges window explains that for a time attack you start a session from the menu, and
+  every run you drive then counts.
+- Start with Windows now uses the same setting as the app, so the setup and Settings agree and
+  the app never starts twice.
+
 ## [0.5.0] - 2026-09-26
 
 First public release.

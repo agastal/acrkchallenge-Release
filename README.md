@@ -28,8 +28,11 @@ mirrors or links shared elsewhere.
   open challenges;
 - **Challenges** window: the weeklies and multi-stage events open right now, with the rules
   of each; one click arms your attempt on a stage before you drive it;
-- three global shortcuts (start, stop, mark) that work with the game in front, each with a
-  sound;
+- a warning with a sound **before the start** when the stage loading is not the challenge's;
+- sounds for what matters while you drive (time received, attempt closed or retired), since
+  Windows holds notifications back while a game is full screen;
+- two global shortcuts (start, stop) that work with the game in front;
+- optional start when you sign in to Windows;
 - English, Italian, French, German and Spanish interface;
 - tells you when a new version is out.
 
@@ -44,10 +47,11 @@ The setup installs for your Windows user only and does not ask for administrator
 ## Getting started
 
 1. Run the setup and read the page on your data (the same as below).
-2. Start acrk-tray: a dot appears in the notification area (it may be hidden under `^`).
+2. Start acrk-tray: its stopwatch appears, grey, in the notification area (it may be hidden
+   under `^`).
    The first time, **Settings** asks for your driver name, the one shown on the
    leaderboards.
-3. From the dot's menu choose **Connect to the site...**. A balloon shows a code: the
+3. From its menu choose **Connect to the site...**. A balloon shows a code: the
    organiser approves it, and the menu then reads *Connected as &lt;name&gt;*.
 4. Drive. Each finished stage reaches the site by itself.
 5. For a challenge with limited attempts, open **Challenges...**, pick the stage and press
@@ -65,7 +69,7 @@ What goes to the site, and only after you connect the app:
 | What | Why |
 | --- | --- |
 | the driver name you choose (a nickname is fine) | it is the name on the leaderboards |
-| for each finished stage: time, penalty, stage, car, weather, time of day, date, app version | the leaderboards |
+| for each finished stage: time, intermediate times, penalty, stage, car, weather, time of day, date, app version | the leaderboards |
 | **a screenshot of the game's session screen** | checking the setup of the run |
 
 **Automatic screenshots.** When you start a stage from the game's session screen (the one
@@ -78,7 +82,7 @@ your in-game profile name if visible. Only the organiser sees it, in the site's 
 it is not shown on public pages.
 
 The site does not record IP addresses. Once a day the app asks GitHub whether a newer
-version exists; nothing about you is sent.
+version exists; nothing about you is sent, and Settings can turn the check off.
 
 On your PC:
 

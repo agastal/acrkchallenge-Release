@@ -27,8 +27,12 @@ da link condivisi altrove.
   sfide aperte;
 - finestra **Sfide**: le weekly e gli eventi a più prove aperti in questo momento, con le
   regole di ciascuno; un clic arma il tuo tentativo su una prova prima di guidarla;
-- tre scorciatoie globali (avvia, ferma, marcatore) che funzionano con il gioco in primo
-  piano, ognuna con un suono;
+- un avviso con suono **prima della partenza** quando la prova che si sta caricando non è quella
+  della sfida;
+- suoni per quello che conta mentre guidi (tempo ricevuto, tentativo chiuso o ritirato), perché
+  Windows trattiene le notifiche quando un gioco è a schermo intero;
+- due scorciatoie globali (avvia, ferma) che funzionano con il gioco in primo piano;
+- avvio all'accesso a Windows, se lo vuoi;
 - interfaccia in italiano, inglese, francese, tedesco e spagnolo;
 - ti avvisa quando esce una nuova versione.
 
@@ -43,10 +47,11 @@ Il setup installa solo per il tuo utente Windows e non chiede i diritti di ammin
 ## Per iniziare
 
 1. Esegui il setup e leggi la pagina sui tuoi dati (la stessa qui sotto).
-2. Avvia acrk-tray: nell'area di notifica compare un pallino (può essere nascosto sotto `^`).
+2. Avvia acrk-tray: nell'area di notifica compare il suo cronometro, grigio (può essere
+   nascosto sotto `^`).
    La prima volta **Impostazioni** chiede il tuo nome pilota, quello che compare nelle
    classifiche.
-3. Dal menu del pallino scegli **Collega al sito...**. Un avviso mostra un codice:
+3. Dal suo menu scegli **Collega al sito...**. Un avviso mostra un codice:
    l'organizzatore lo approva, e il menu diventa *Collegato come &lt;nome&gt;*.
 4. Guida. Ogni prova conclusa arriva al sito da sola.
 5. Per una sfida con tentativi limitati apri **Sfide...**, scegli la prova e premi **Avvia il
@@ -64,7 +69,7 @@ Cosa arriva al sito, e solo dopo che hai collegato l'app:
 | Cosa | Perché |
 | --- | --- |
 | il nome pilota che scegli (va bene un soprannome) | è il nome nelle classifiche |
-| per ogni prova conclusa: tempo, penalità, prova, auto, meteo, ora del giorno, data, versione dell'app | le classifiche |
+| per ogni prova conclusa: tempo, tempi intermedi, penalità, prova, auto, meteo, ora del giorno, data, versione dell'app | le classifiche |
 | **uno screenshot della schermata della sessione del gioco** | verificare la configurazione della prova |
 
 **Screenshot automatici.** Quando avvii una prova dalla schermata della sessione del gioco
@@ -77,7 +82,8 @@ il nome del tuo profilo di gioco se visibile. La vede solo l'organizzatore, nell
 sito; non compare nelle pagine pubbliche.
 
 Il sito non registra indirizzi IP. Una volta al giorno l'app chiede a GitHub se esiste una
-versione più recente; non viene inviato niente che ti riguardi.
+versione più recente; non viene inviato niente che ti riguardi, e il controllo si può spegnere
+nelle Impostazioni.
 
 Sul tuo PC:
 

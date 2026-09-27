@@ -5,6 +5,31 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.6.0] - 2026-09-27
+
+Suoni e avvisi per quello che succede mentre guidi, e più controllo su come parte l'app.
+
+### Novità
+
+- Un avviso con suono **prima della partenza** quando il gioco sta caricando una prova diversa
+  da quella della sfida: torna al menu, o il tentativo è ritirato.
+- Suoni per l'esito di ogni prova (tempo ricevuto, tentativo chiuso, ritiro, avviso, errore),
+  perché Windows trattiene le notifiche mentre il gioco è a schermo intero.
+- I tempi intermedi vengono letti dal gioco e inviati con ogni prova.
+- **Impostazioni**: "Avvia acrk-tray all'accesso a Windows" e "Controlla una volta al giorno se
+  ci sono nuove versioni", entrambe disattivabili.
+
+### Modifiche
+
+- Chiudere il gioco durante una prova ora ritira il tentativo (motivo "closed") e la sessione
+  aspetta che il gioco riparta.
+- A riposo, l'icona nell'area di notifica è il cronometro dell'app in grigio.
+- La scorciatoia del segnaposto non c'è più: restano avvio e stop.
+- La finestra Sfide spiega che per il time attack si avvia una sessione dal menu, e da lì ogni
+  prova che guidi conta.
+- L'avvio con Windows ora usa la stessa impostazione dell'app: setup e Impostazioni sono
+  d'accordo e l'app non parte mai due volte.
+
 ## [0.5.0] - 2026-09-26
 
 Prima versione pubblica.
