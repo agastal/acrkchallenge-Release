@@ -5,6 +5,29 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.7.0] - 2026-09-28
+
+L'app può registrare da sola mentre il gioco è aperto, e nessun tentativo va perso per una
+registrazione avviata nel momento sbagliato.
+
+### Novità
+
+- *Registra da solo quando il gioco è aperto*, nelle Impostazioni (spenta di serie): la
+  registrazione parte quando apri il gioco e si ferma quando lo chiudi. Se la fermi a mano con il
+  gioco aperto, aspetta che tu lo chiuda.
+- Un clic sinistro sull'icona dell'app avvia o ferma la registrazione; il menu è sul clic destro.
+  Con un tentativo armato o in corso il clic sinistro apre il menu, così un clic non lo ritira.
+
+### Correzioni
+
+- Avviare la registrazione mentre il gioco mostrava ancora il risultato della prova precedente
+  consumava un tentativo di una sfida: l'app prendeva quel tempo fermo per una partenza, e la
+  ripartenza che seguiva ritirava il tentativo.
+- Le prove guidate dopo aver fermato e riavviato la registrazione senza uscire dalla speciale
+  arrivavano al sito senza l'immagine della schermata della sessione. Ora l'app osserva quella
+  schermata finché è aperta, anche quando non registra; l'immagine resta nella sua memoria finché
+  non invia una prova.
+
 ## [0.6.2] - 2026-09-27
 
 Le sessioni registrate non riempiono più il disco.

@@ -86,7 +86,8 @@ l'immagine permette all'organizzatore di verificare prova, auto, meteo e ora del
 Cattura **solo la finestra di Assetto Corsa Rally, e solo mentre il gioco è in primo piano**,
 mai il desktop o altri programmi. Mostra quello che mostra il gioco in quel momento, compreso
 il nome del tuo profilo di gioco se visibile. La vede solo l'organizzatore, nella console del
-sito; non compare nelle pagine pubbliche.
+sito; non compare nelle pagine pubbliche. L'app osserva quella schermata anche quando non
+registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale.
 
 Il sito non registra indirizzi IP. Una volta al giorno l'app chiede a GitHub se esiste una
 versione più recente; non viene inviato niente che ti riguardi, e il controllo si può spegnere

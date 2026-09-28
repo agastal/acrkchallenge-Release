@@ -86,7 +86,8 @@ of a run, and the picture lets the organiser check stage, car, weather and time 
 It captures **only the Assetto Corsa Rally window, only while the game is in front**, never
 the desktop or other programs. It shows what the game shows at that moment, including
 your in-game profile name if visible. Only the organiser sees it, in the site's console;
-it is not shown on public pages.
+it is not shown on public pages. The app watches for that screen also when it is not
+recording, keeping the picture in memory only until a run of that stage is sent.
 
 The site does not record IP addresses. Once a day the app asks GitHub whether a newer
 version exists; nothing about you is sent, and Settings can turn the check off.

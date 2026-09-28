@@ -5,6 +5,29 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.7.0] - 2026-09-28
+
+The app can record by itself while the game is open, and no attempt is lost to a recording
+started at the wrong moment.
+
+### New
+
+- *Record by itself while the game is open*, in Settings (off by default): the recording starts
+  when you open the game and stops when you close it. Stopped by hand with the game open, it waits
+  until you close the game.
+- A left click on the app's icon starts or stops the recording; the menu is on the right click.
+  While an attempt is armed or running, the left click opens the menu, so that a click does not
+  retire it.
+
+### Fixed
+
+- Starting the recording while the game still showed the result of the previous run spent an
+  attempt of a challenge: the app took that frozen time for a start, and the restart that followed
+  retired the attempt.
+- Runs driven after stopping and starting the recording without leaving the stage reached the
+  site without the picture of the session screen. The app now watches for that screen while it is
+  open, also when it is not recording; the picture stays in its memory until a run is sent.
+
 ## [0.6.2] - 2026-09-27
 
 The recorded sessions no longer fill the disk.
