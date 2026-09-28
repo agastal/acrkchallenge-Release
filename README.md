@@ -110,7 +110,12 @@ settings and connection. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
 ## Unsigned installer
 
-The setup is not code-signed, so Windows SmartScreen may warn the first time: choose
+The setup is not code-signed, so **Edge and Chrome may block the download**: open the
+downloads with Ctrl+J and choose to keep the file (Edge: **…** > **Keep** > **Show more** >
+**Keep anyway**; Chrome: **Keep** or **Download anyway**). The steps in more detail are in the
+[wiki](https://github.com/agastal/acrkchallenge-Release/wiki/Installation#if-the-browser-blocks-the-download).
+
+For the same reason Windows SmartScreen may warn the first time: choose
 **More info**, then **Run anyway**. Check the file against `SHA256SUMS.txt` if in doubt:
 
 ```powershell

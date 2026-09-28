@@ -111,7 +111,12 @@ mantiene impostazioni e collegamento. Le novità sono in [CHANGELOG.it.md](CHANG
 
 ## Installer non firmato
 
-Il setup non ha una firma digitale, quindi Windows SmartScreen può avvisare la prima volta:
+Il setup non ha una firma digitale, quindi **Edge e Chrome possono bloccarne il download**:
+aprili con Ctrl+J e scegli di tenere il file (Edge: **…** > **Mantieni** > **Mostra altro** >
+**Mantieni comunque**; Chrome: **Mantieni** o **Scarica comunque**). I passaggi con più
+dettagli sono nel [wiki](https://github.com/agastal/acrkchallenge-Release/wiki/Installazione#se-il-browser-blocca-il-download).
+
+Per lo stesso motivo Windows SmartScreen può avvisare la prima volta:
 scegli **Ulteriori informazioni**, poi **Esegui comunque**. Nel dubbio confronta il file con
 `SHA256SUMS.txt`:
 
