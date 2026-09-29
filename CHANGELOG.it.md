@@ -5,6 +5,19 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.8.0] - 2026-09-29
+
+Quando un tempo o un tentativo non arriva al sito, l'app può mandare all'organizzatore quello che
+gli serve per capire perché.
+
+### Novità
+
+- *Invia dati per l'assistenza...* nel menu: dopo una conferma, l'app invia il registro delle tue
+  ultime sessioni, le sue impostazioni, i tempi ancora da inviare, il salvataggio del gioco e un
+  rapporto su app e Windows. Lo vede solo l'organizzatore e viene cancellato dopo 30 giorni; la
+  chiave di collegamento non viene mai inviata. Una notifica ti dà un codice da comunicare
+  all'organizzatore; se l'invio non riesce, il file resta sul Desktop e lo mandi tu.
+
 ## [0.7.0] - 2026-09-28
 
 L'app può registrare da sola mentre il gioco è aperto, e nessun tentativo va perso per una

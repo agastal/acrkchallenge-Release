@@ -5,6 +5,19 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.8.0] - 2026-09-29
+
+When a time or an attempt does not reach the site, the app can send the organiser what it needs
+to find out why.
+
+### New
+
+- *Send diagnostics to the organiser...* in the menu: after a confirmation, the app sends the log
+  of your latest sessions, its settings, the times still waiting to be sent, the game's save file
+  and a report on the app and Windows. Only the organiser sees it, and it is deleted after 30 days;
+  the connection key is never sent. A notification gives you a code to tell the organiser; if
+  sending fails, the file is left on your Desktop for you to send.
+
 ## [0.7.0] - 2026-09-28
 
 The app can record by itself while the game is open, and no attempt is lost to a recording

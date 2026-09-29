@@ -89,6 +89,11 @@ il nome del tuo profilo di gioco se visibile. La vede solo l'organizzatore, nell
 sito; non compare nelle pagine pubbliche. L'app osserva quella schermata anche quando non
 registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale.
 
+**Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),
+l'app manda all'organizzatore uno zip con il registro e la telemetria delle ultime sessioni, le
+sue impostazioni, i tempi da inviare, il salvataggio del gioco e un rapporto su app e Windows.
+Mai la chiave di collegamento; lo vede solo l'organizzatore ed è cancellato dopo 30 giorni.
+
 Il sito non registra indirizzi IP. Una volta al giorno l'app chiede a GitHub se esiste una
 versione più recente; non viene inviato niente che ti riguardi, e il controllo si può spegnere
 nelle Impostazioni.
