@@ -5,6 +5,16 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.8.1] - 2026-09-30
+
+A fix for times that reached the site without their stage.
+
+### Fixed
+
+- Some times reached the site with a wrong stage name, so the site could not place them: they
+  waited for the organiser, and an attempt they closed stayed *Running* in *Challenges...*
+  in the meantime. The stage is now read right.
+
 ## [0.8.0] - 2026-09-29
 
 When a time or an attempt does not reach the site, the app can send the organiser what it needs

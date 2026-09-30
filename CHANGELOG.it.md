@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.8.1] - 2026-09-30
+
+Una correzione per i tempi arrivati al sito senza la loro speciale.
+
+### Correzioni
+
+- Alcuni tempi arrivavano al sito con il nome della speciale sbagliato, e il sito non sapeva dove
+  metterli: restavano in attesa dell'organizzatore e, nel frattempo, il tentativo che chiudevano
+  restava *In corso* in *Sfide...*. Ora la speciale viene letta correttamente.
+
 ## [0.8.0] - 2026-09-29
 
 Quando un tempo o un tentativo non arriva al sito, l'app può mandare all'organizzatore quello che
