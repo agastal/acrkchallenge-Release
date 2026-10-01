@@ -5,6 +5,41 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.9.0] - 2026-10-01
+
+Un pannello pilota per il secondo monitor, con il distacco dal tuo record mentre guidi, e
+un'immagine con ogni tempo anche quando l'app non vede la schermata della sessione.
+
+### Novità
+
+- *Pannello pilota...* nel menu: una finestra larga e bassa per il secondo monitor. Un pulsante
+  avvia e ferma la registrazione dei tempi, o arma il tentativo della sfida che scegli nel suo
+  elenco; accanto, il cronometro della prova, velocità e marcia, le barre di acceleratore e freno e
+  la condizione richiesta dalla sfida. Ricorda dove lo metti e può restare sopra le altre finestre
+  (Impostazioni).
+- Il pannello mostra quanto sei avanti (verde) o indietro (rosso) rispetto al tuo miglior tempo
+  sulla stessa prova speciale, auto e condizione, metro per metro, e all'arrivo resta sul distacco
+  finale. La prima prova che finisci con il pannello aperto diventa il riferimento; ogni prova più
+  veloce lo sostituisce. Queste tracce restano sul tuo PC.
+- Quando guidi una prova di una sfida senza avviare il tentativo, un avviso ti dice che il tempo è
+  valso solo per il time attack.
+
+### Modifiche
+
+- *Avvia/Ferma sessione* ora si chiama *Avvia/Ferma registrazione tempi*, per non confonderlo con
+  AVVIA SESSIONE del gioco.
+- Quando l'app non vede la schermata della sessione prima della prova (un'altra modalità di gioco,
+  l'app aperta dentro la prova), cattura invece un'immagine della finestra di gioco sulla linea di
+  partenza, prima del via, e dice all'organizzatore perché mancava.
+- La schermata della sessione viene riconosciuta su più formati di schermo (16:10, ultrawide) e
+  quando il gioco è dietro un'altra finestra che non lo copre, come il pannello pilota.
+- *Apri la cartella delle sessioni* è uscito dal menu: il wiki dice dov'è la cartella, e *Invia dati per
+  l'assistenza...* manda quello che serve.
+
+### Correzioni
+
+- I nomi lunghi delle scorciatoie non vengono più tagliati nelle Impostazioni.
+
 ## [0.8.1] - 2026-09-30
 
 Una correzione per i tempi arrivati al sito senza la loro speciale.

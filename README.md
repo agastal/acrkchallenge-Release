@@ -32,6 +32,9 @@ mirrors or links shared elsewhere.
   open challenges;
 - **Challenges** window: the weeklies and multi-stage events open right now, with the rules
   of each; one click arms your attempt on a stage before you drive it;
+- **[Driver panel](https://github.com/agastal/acrkchallenge-Release/wiki/Driver-panel)** (off by
+  default): a second-monitor window to start or stop a challenge with one button and watch the
+  clock, the gap to your record, speed, gear and the throttle/brake bars while you drive;
 - a warning with a sound **before the start** when the stage loading is not the challenge's;
 - sounds for what matters while you drive (time received, attempt closed or retired), since
   Windows holds notifications back while a game is full screen;
@@ -87,7 +90,9 @@ It captures **only the Assetto Corsa Rally window, only while the game is in fro
 the desktop or other programs. It shows what the game shows at that moment, including
 your in-game profile name if visible. Only the organiser sees it, in the site's console;
 it is not shown on public pages. The app watches for that screen also when it is not
-recording, keeping the picture in memory only until a run of that stage is sent.
+recording, keeping the picture in memory only until a run of that stage is sent. If it did not
+see that screen before the stage loaded, it takes one picture of the game window at the start
+line, before the run starts, instead, and sends a short technical note on why the session screen was missing.
 
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
 the app sends the organiser a zip with the log and telemetry of your latest sessions, its

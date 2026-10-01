@@ -5,6 +5,40 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.9.0] - 2026-10-01
+
+A driver panel for a second monitor, with the gap to your record while you drive, and a picture
+with every time even when the app does not see the session screen.
+
+### New
+
+- *Driver panel...* in the menu: a wide, short window for a second monitor. One button starts and
+  stops recording times, or arms the attempt of the challenge you pick in its list; beside it the
+  stage clock, speed and gear, the throttle and brake bars, and the condition the challenge wants.
+  It remembers where you put it, and it can stay above other windows (Settings).
+- The panel shows how far ahead (green) or behind (red) you are against your own best time on the
+  same stage, car and condition, metre by metre, and holds the final gap at the finish. The first
+  run you finish with the panel open becomes the reference; every faster one replaces it. These
+  traces stay on your PC.
+- When you drive a stage of a challenge without starting the attempt, a notice tells you the time
+  counted only for the time attack.
+
+### Changed
+
+- *Start/Stop session* is now *Start/Stop recording times*, so it is not mistaken for the game's own
+  START SESSION.
+- When the app does not see the session screen before the stage (another game mode, the app opened
+  in the stage), it takes one picture of the game window at the start line instead, before you set
+  off, and tells the organiser why the session screen was missing.
+- The session screen is recognised on more screen shapes (16:10, ultrawide) and when the game is
+  behind another window that does not cover it, such as the driver panel.
+- *Open sessions folder* left the menu: the wiki says where the folder is, and *Send diagnostics to
+  the organiser...* sends what is needed.
+
+### Fixed
+
+- Long shortcut names no longer get cut in Settings.
+
 ## [0.8.1] - 2026-09-30
 
 A fix for times that reached the site without their stage.

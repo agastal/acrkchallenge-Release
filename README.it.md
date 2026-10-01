@@ -31,6 +31,10 @@ da link condivisi altrove.
   sfide aperte;
 - finestra **Sfide**: le weekly e gli eventi a più prove aperti in questo momento, con le
   regole di ciascuno; un clic arma il tuo tentativo su una prova prima di guidarla;
+- **[Pannello pilota](https://github.com/agastal/acrkchallenge-Release/wiki/Pannello-pilota)** (spento
+  di serie): una finestra per il secondo monitor per avviare o fermare una sfida con un pulsante e
+  vedere cronometro, distacco dal tuo record, velocità, marcia e le barre acceleratore/freno mentre
+  guidi;
 - un avviso con suono **prima della partenza** quando la prova che si sta caricando non è quella
   della sfida;
 - suoni per quello che conta mentre guidi (tempo ricevuto, tentativo chiuso o ritirato), perché
@@ -87,7 +91,9 @@ Cattura **solo la finestra di Assetto Corsa Rally, e solo mentre il gioco è in 
 mai il desktop o altri programmi. Mostra quello che mostra il gioco in quel momento, compreso
 il nome del tuo profilo di gioco se visibile. La vede solo l'organizzatore, nella console del
 sito; non compare nelle pagine pubbliche. L'app osserva quella schermata anche quando non
-registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale.
+registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale. Se
+non ha visto quella schermata prima del caricamento, cattura invece un'immagine della finestra di
+gioco sulla linea di partenza, prima del via, e invia una breve nota tecnica sul perché mancava.
 
 **Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),
 l'app manda all'organizzatore uno zip con il registro e la telemetria delle ultime sessioni, le
