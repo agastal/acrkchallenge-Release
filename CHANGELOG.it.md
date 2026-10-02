@@ -5,6 +5,36 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.10.0] - 2026-10-02
+
+Un overlay sul gioco con il distacco dal tuo record, e le prove notturne distinte per meteo.
+
+### Novità
+
+- *Overlay sul gioco* nel menu: un piccolo riquadro trasparente sopra il gioco con quello che il suo
+  HUD non mostra. Un pallino dice se i tempi vengono registrati (giallo spento, verde pronto, rosso
+  durante una prova); accanto il tentativo della sfida o la condizione che chiede, il distacco dal
+  tuo record con la sua tendenza, il tuo record e il tempo d'arrivo se il distacco resta quello, e
+  che fine ha fatto la tua ultima prova (inviata con la posizione in classifica, in attesa di invio,
+  non inviata, tentativo valido o ritirato). Compare solo con una prova caricata e il gioco sullo
+  schermo, lascia passare i clic al gioco e non finisce negli screenshot né nelle registrazioni.
+- *Posiziona l'overlay* (menu, oppure Ctrl+Maiusc+F8, modificabile nelle Impostazioni): trascinalo
+  dove vuoi, poi doppio clic o di nuovo la scorciatoia per fissarlo. Mentre lo posizioni, il suo
+  pallino avvia e ferma la registrazione tempi.
+- L'overlay ti avvisa quando la prova caricata non è quella della sfida.
+- *Prova non salvata dal gioco*: un avviso quando il gioco non conserva il risultato di una prova
+  conclusa, così sai che quel tempo non è arrivato al sito.
+
+### Modifiche
+
+- La notte ora va con il meteo: *notte, asciutto*, *notte, bagnato* e *notte, neve / ghiaccio* sono
+  condizioni distinte, nel pannello pilota e nella finestra Sfide come sul sito.
+
+### Correzioni
+
+- Un nuovo record che il gioco scriveva solo tra i suoi migliori tempi, senza un risultato a sé, non
+  veniva inviato: ora arriva al sito.
+
 ## [0.9.0] - 2026-10-01
 
 Un pannello pilota per il secondo monitor, con il distacco dal tuo record mentre guidi, e

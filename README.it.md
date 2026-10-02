@@ -35,11 +35,14 @@ da link condivisi altrove.
   di serie): una finestra per il secondo monitor per avviare o fermare una sfida con un pulsante e
   vedere cronometro, distacco dal tuo record, velocità, marcia e le barre acceleratore/freno mentre
   guidi;
+- **[Overlay sul gioco](https://github.com/agastal/acrkchallenge-Release/wiki/Pannello-pilota#loverlay-sul-gioco)**
+  (spento di serie): un piccolo riquadro trasparente sopra il gioco con lo stato della registrazione,
+  il distacco dal tuo record e che fine ha fatto la tua ultima prova;
 - un avviso con suono **prima della partenza** quando la prova che si sta caricando non è quella
   della sfida;
 - suoni per quello che conta mentre guidi (tempo ricevuto, tentativo chiuso o ritirato), perché
   Windows trattiene le notifiche quando un gioco è a schermo intero;
-- due scorciatoie globali (avvia, ferma) che funzionano con il gioco in primo piano;
+- scorciatoie globali (avvia, ferma, posiziona l'overlay) che funzionano con il gioco in primo piano;
 - avvio all'accesso a Windows, se lo vuoi;
 - interfaccia in italiano, inglese, francese, tedesco e spagnolo;
 - ti avvisa quando esce una nuova versione.

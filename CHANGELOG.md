@@ -5,6 +5,36 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.10.0] - 2026-10-02
+
+An overlay on the game with the gap to your record, and night stages told apart by their weather.
+
+### New
+
+- *Game overlay* in the menu: a small see-through box over the game with what its HUD lacks. A dot
+  says whether times are being recorded (yellow off, green ready, red during a run); beside it the
+  challenge attempt or the condition it wants, the gap to your record with its trend, your record
+  and the finish time if the gap holds, and what became of your last run (sent with its place on
+  the board, waiting to be sent, not sent, attempt valid or retired). It shows only with a stage
+  loaded and the game on screen, lets clicks through to the game, and stays out of screenshots and
+  recordings.
+- *Place the overlay* (menu, or Ctrl+Shift+F8, which you can change in Settings): drag it where you
+  want it, then double-click or press the shortcut again to fix it. While you place it, its dot
+  starts and stops recording times.
+- The overlay warns you when the stage you loaded is not the challenge's.
+- *Run not saved by the game*: a notice when the game keeps no result of a finished run, so you know
+  that time did not reach the site.
+
+### Changed
+
+- Night now goes with the weather: *night, dry*, *night, wet* and *night, snow / ice* are separate
+  conditions, in the driver panel and the Challenges window as on the site.
+
+### Fixed
+
+- A new best time the game wrote only among its best times, without a result of its own, was not
+  sent: it now reaches the site.
+
 ## [0.9.0] - 2026-10-01
 
 A driver panel for a second monitor, with the gap to your record while you drive, and a picture

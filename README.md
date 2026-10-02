@@ -35,10 +35,13 @@ mirrors or links shared elsewhere.
 - **[Driver panel](https://github.com/agastal/acrkchallenge-Release/wiki/Driver-panel)** (off by
   default): a second-monitor window to start or stop a challenge with one button and watch the
   clock, the gap to your record, speed, gear and the throttle/brake bars while you drive;
+- **[Game overlay](https://github.com/agastal/acrkchallenge-Release/wiki/Driver-panel#the-overlay-on-the-game)**
+  (off by default): a small see-through box over the game with whether times are being recorded,
+  the gap to your record and what became of your last run;
 - a warning with a sound **before the start** when the stage loading is not the challenge's;
 - sounds for what matters while you drive (time received, attempt closed or retired), since
   Windows holds notifications back while a game is full screen;
-- two global shortcuts (start, stop) that work with the game in front;
+- global shortcuts (start, stop, place the overlay) that work with the game in front;
 - optional start when you sign in to Windows;
 - English, Italian, French, German and Spanish interface;
 - tells you when a new version is out.
