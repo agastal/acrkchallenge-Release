@@ -44,7 +44,7 @@ mirrors or links shared elsewhere.
 - global shortcuts (start, stop, place the overlay) that work with the game in front;
 - optional start when you sign in to Windows;
 - English, Italian, French, German and Spanish interface;
-- tells you when a new version is out.
+- installs new versions with one click, or by itself with the game closed.
 
 ## Requirements
 
@@ -103,7 +103,8 @@ settings, the times waiting to be sent, the game's save file and a report on the
 Windows. Never the connection key; only the organiser sees it, and it is deleted after 30 days.
 
 The site does not record IP addresses. Once a day the app asks GitHub whether a newer
-version exists; nothing about you is sent, and Settings can turn the check off.
+version exists, and downloads its setup from GitHub when you install it; nothing about you is
+sent, and Settings can turn the check off.
 
 On your PC:
 
@@ -117,10 +118,12 @@ Uninstalling offers to delete both folders. More in
 
 ## Updates
 
-When a newer version is out, acrk-tray shows a notification and adds **Download update
-X.Y.Z...** at the top of its menu. The app never updates itself: download the new setup
-from the release page and run it. It closes the running app, replaces it and keeps your
-settings and connection. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+When a newer version is out, acrk-tray shows a notification and adds **Install update
+X.Y.Z** at the top of its menu: one click downloads the new setup, checks its signature,
+installs it and starts the app again, keeping your settings and connection. Settings can let
+the app do it by itself, with the game closed. From 0.11.0 on; before, run the new setup by
+hand. Details in [Updates](https://github.com/agastal/acrkchallenge-Release/wiki/Updates); what
+changed in [CHANGELOG.md](CHANGELOG.md).
 
 ## Unsigned installer
 

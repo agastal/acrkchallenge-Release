@@ -5,6 +5,26 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.11.0] - 2026-10-02
+
+Gli aggiornamenti si installano dall'app: con un clic, o da soli a gioco chiuso.
+
+### Novità
+
+- *Installa l'aggiornamento X.Y.Z* nel menu (era *Scarica l'aggiornamento*): l'app scarica la nuova
+  versione, ne controlla la firma, la installa e si riavvia in pochi secondi, con impostazioni e
+  collegamento come prima. Aspetta se il gioco è aperto, se stai registrando i tempi, se c'è un
+  tentativo in corso o un tempo ancora da inviare, e lo dice.
+- *Installale da sola, a gioco chiuso* nelle Impostazioni, sotto il controllo giornaliero (spenta di
+  serie): l'app si aggiorna da sola appena non c'è niente in corso.
+- Dopo un aggiornamento un avviso dice quale versione hai ora; un clic apre le novità.
+- Ogni setup è firmato: l'app installa solo un setup fatto dall'organizzatore, mai uno rovinato o
+  alterato.
+
+### Modifiche
+
+- Questo è l'ultimo aggiornamento da installare a mano: dalla 0.11.0 lo fa l'app.
+
 ## [0.10.0] - 2026-10-02
 
 Un overlay sul gioco con il distacco dal tuo record, e le prove notturne distinte per meteo.

@@ -45,7 +45,7 @@ da link condivisi altrove.
 - scorciatoie globali (avvia, ferma, posiziona l'overlay) che funzionano con il gioco in primo piano;
 - avvio all'accesso a Windows, se lo vuoi;
 - interfaccia in italiano, inglese, francese, tedesco e spagnolo;
-- ti avvisa quando esce una nuova versione.
+- installa le nuove versioni con un clic, o da sola a gioco chiuso.
 
 ## Requisiti
 
@@ -104,8 +104,8 @@ sue impostazioni, i tempi da inviare, il salvataggio del gioco e un rapporto su 
 Mai la chiave di collegamento; lo vede solo l'organizzatore ed è cancellato dopo 30 giorni.
 
 Il sito non registra indirizzi IP. Una volta al giorno l'app chiede a GitHub se esiste una
-versione più recente; non viene inviato niente che ti riguardi, e il controllo si può spegnere
-nelle Impostazioni.
+versione più recente, e ne scarica il setup da GitHub quando la installi; non viene inviato niente
+che ti riguardi, e il controllo si può spegnere nelle Impostazioni.
 
 Sul tuo PC:
 
@@ -119,10 +119,12 @@ La disinstallazione propone di cancellare entrambe le cartelle. Altro in
 
 ## Aggiornamenti
 
-Quando esce una versione più recente, acrk-tray mostra una notifica e aggiunge **Scarica
-l'aggiornamento X.Y.Z...** in cima al menu. L'app non si aggiorna mai da sola: scarica il nuovo
-setup dalla pagina della release ed eseguilo. Chiude l'app in esecuzione, la sostituisce e
-mantiene impostazioni e collegamento. Le novità sono in [CHANGELOG.it.md](CHANGELOG.it.md).
+Quando esce una versione più recente, acrk-tray mostra una notifica e aggiunge **Installa
+l'aggiornamento X.Y.Z** in cima al menu: un clic scarica il nuovo setup, ne controlla la firma, lo
+installa e riavvia l'app, mantenendo impostazioni e collegamento. Nelle Impostazioni puoi lasciare
+che lo faccia da sola, a gioco chiuso. Dalla 0.11.0; prima, esegui a mano il nuovo setup. Dettagli
+in [Aggiornamenti](https://github.com/agastal/acrkchallenge-Release/wiki/Aggiornamenti); le novità
+in [CHANGELOG.it.md](CHANGELOG.it.md).
 
 ## Installer non firmato
 
