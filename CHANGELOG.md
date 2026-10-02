@@ -5,6 +5,16 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.11.1] - 2026-10-02
+
+Times driven many times in a row on the same stage reach the site again.
+
+### Fixed
+
+- After several runs on a stage without going back to the menu, the times were refused by the site
+  ("game_stage is missing") and counted nowhere, not even in a challenge's attempt. The app now reads
+  the stage of every run, however many there are.
+
 ## [0.11.0] - 2026-10-02
 
 Updates install from the app: one click, or by themselves with the game closed.

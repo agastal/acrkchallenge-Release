@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.11.1] - 2026-10-02
+
+I tempi fatti più volte di fila sulla stessa prova speciale tornano ad arrivare al sito.
+
+### Correzioni
+
+- Dopo diverse prove sulla stessa speciale senza tornare al menu, i tempi venivano rifiutati dal sito
+  ("game_stage is missing") e non contavano da nessuna parte, nemmeno per il tentativo di una sfida.
+  Ora l'app legge la speciale di ogni prova, per quante siano.
+
 ## [0.11.0] - 2026-10-02
 
 Gli aggiornamenti si installano dall'app: con un clic, o da soli a gioco chiuso.
