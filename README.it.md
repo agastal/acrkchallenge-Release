@@ -94,9 +94,12 @@ Cattura **solo la finestra di Assetto Corsa Rally, e solo mentre il gioco è in 
 mai il desktop o altri programmi. Mostra quello che mostra il gioco in quel momento, compreso
 il nome del tuo profilo di gioco se visibile. La vede solo l'organizzatore, nella console del
 sito; non compare nelle pagine pubbliche. L'app osserva quella schermata anche quando non
-registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale. Se
-non ha visto quella schermata prima del caricamento, cattura invece un'immagine della finestra di
-gioco sulla linea di partenza, prima del via, e invia una breve nota tecnica sul perché mancava.
+registra, e tiene l'immagine solo in memoria finché non invia una prova di quella speciale.
+Cattura anche due piccole immagini della finestra di gioco, una sulla linea di partenza prima del
+via e una qualche secondo dopo l'arrivo, e le invia con quella prova accanto alla schermata:
+mostrano quanta neve o acqua c'è sulla strada, e se è cambiata. Se non ha visto la schermata della
+sessione prima del caricamento, l'immagine dopo l'arrivo la sostituisce, intera, con una breve nota
+tecnica sul perché mancava.
 
 **Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),
 l'app manda all'organizzatore uno zip con il registro e la telemetria delle ultime sessioni, le

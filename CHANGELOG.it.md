@@ -5,6 +5,35 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.12.0] - 2026-10-03
+
+Due piccole immagini della strada con ogni tempo, il puntatore del mouse fuori dai piedi e la registrazione
+che si ferma con il gioco.
+
+### Novità
+
+- Con ogni tempo l'app invia ora due piccole immagini della finestra di gioco: la strada sulla linea di
+  partenza, prima del via e a motore acceso, e la strada qualche secondo dopo l'arrivo, mentre rallenti
+  dopo il traguardo. L'organizzatore vede quanta neve o acqua c'è sulla strada, e se è cambiata durante la
+  prova.
+- *Sposta il puntatore del mouse in un angolo al via della prova* nelle Impostazioni (spenta di serie):
+  quando parte il cronometro il puntatore va nell'angolo in basso a destra dello schermo del gioco invece
+  di restare in mezzo alla strada.
+
+### Modifiche
+
+- Quando la schermata della sessione del gioco non è stata vista, l'immagine inviata al suo posto è ora
+  quella dopo l'arrivo, intera: mostra la strada, il meteo, l'ora del giorno e il tuo tempo. Quella sulla
+  linea di partenza poteva cogliere la schermata di caricamento del gioco.
+- Chiudere il gioco ora ferma anche *Avvia registrazione tempi* avviata a mano. Un tempo appena concluso
+  viene comunque atteso; con un tentativo di sfida armato la registrazione resta accesa per quando riapri
+  il gioco.
+
+### Correzioni
+
+- "Prova non salvata dal gioco" poteva comparire proprio all'arrivo di una prova che il gioco aveva salvato.
+- Dopo la chiusura del gioco, "Gioco trovato" poteva ricomparire alcune volte di fila.
+
 ## [0.11.1] - 2026-10-02
 
 I tempi fatti più volte di fila sulla stessa prova speciale tornano ad arrivare al sito.

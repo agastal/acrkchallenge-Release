@@ -93,9 +93,12 @@ It captures **only the Assetto Corsa Rally window, only while the game is in fro
 the desktop or other programs. It shows what the game shows at that moment, including
 your in-game profile name if visible. Only the organiser sees it, in the site's console;
 it is not shown on public pages. The app watches for that screen also when it is not
-recording, keeping the picture in memory only until a run of that stage is sent. If it did not
-see that screen before the stage loaded, it takes one picture of the game window at the start
-line, before the run starts, instead, and sends a short technical note on why the session screen was missing.
+recording, keeping the picture in memory only until a run of that stage is sent. It also takes
+two small pictures of the game window, one at the start line before the run starts and one a few
+seconds after the finish, and sends them with that run beside the session screen: they show how
+much snow or water is on the road, and whether it changed. If it did not see the session screen
+before the stage loaded, the picture after the finish goes in its place, whole, with a short
+technical note on why the session screen was missing.
 
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
 the app sends the organiser a zip with the log and telemetry of your latest sessions, its

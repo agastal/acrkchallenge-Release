@@ -5,6 +5,35 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.12.0] - 2026-10-03
+
+Two small pictures of the road with every time, the mouse pointer out of the way, and the recording that
+stops with the game.
+
+### New
+
+- With every time the app now sends two small pictures of the game window: the road at the start line,
+  taken before the start once the engine is running, and the road a few seconds after the finish, while
+  you slow down after the line. The organiser sees how much snow or water is on the road, and whether it
+  changed during the stage.
+- *Move the mouse pointer to a corner when a run starts* in Settings (off by default): when the clock
+  starts, the pointer goes to the bottom right corner of the game's screen instead of staying in the
+  middle of the road.
+
+### Changed
+
+- When the game's session screen was not seen, the picture sent in its place is now the one after the
+  finish, whole: it shows the road, the weather, the time of day and your time. The one at the start line
+  could catch the game's loading screen.
+- Closing the game now stops *Start recording times* too when you started it by hand. A time that has
+  just finished is still waited for; with a challenge attempt armed, the recording stays on for when you
+  open the game again.
+
+### Fixed
+
+- "Run not saved by the game" could appear right at the finish of a run the game did save.
+- After closing the game, "Game found" could come back a few times in a row.
+
 ## [0.11.1] - 2026-10-02
 
 Times driven many times in a row on the same stage reach the site again.
