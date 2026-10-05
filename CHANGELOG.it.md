@@ -5,6 +5,25 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.13.0] - 2026-10-05
+
+Un tempo che il gioco non salva non va più perso: arriva al sito e aspetta l'organizzatore.
+
+### Novità
+
+- Ogni tanto il gioco finisce una prova senza salvarne il tempo. Ora l'app lo invia comunque, col tempo del
+  suo cronometro e le foto della strada: compare «Prova in attesa di convalida», l'overlay dice «inviata ·
+  in attesa di convalida» e l'organizzatore controlla prova, auto, meteo e penalità prima che conti. Il
+  tentativo di una sfida lo aspetta invece di andare perso, e la registrazione avviata per il tentativo si
+  ferma da sola come dopo ogni altro arrivo.
+- Con ogni tempo l'app invia anche i nomi di prova e auto che il gioco mostra, così il sito li riconosce
+  quando arriva un tempo che il gioco non ha salvato.
+
+### Modifiche
+
+- Le foto della strada alla partenza e dopo l'arrivo sono più nitide (grandi come la schermata della
+  sessione): pioggia e neve sulla strada si giudicano meglio.
+- Su uno schermo molto largo o su tre monitor le foto tengono solo la parte centrale, lo schermo davanti a te.
 ## [0.12.0] - 2026-10-03
 
 Due piccole immagini della strada con ogni tempo, il puntatore del mouse fuori dai piedi e la registrazione

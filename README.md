@@ -83,6 +83,7 @@ What goes to the site, and only after you connect the app:
 | --- | --- |
 | the driver name you choose (a nickname is fine) | it is the name on the leaderboards |
 | for each finished stage: time, intermediate times, penalty, stage, car, weather, time of day, date, app version | the leaderboards |
+| a finished stage the game did not save: the time on the app's clock, stage and car as the game shows them | the organiser, who checks it before it counts |
 | **a screenshot of the game's session screen** | checking the setup of the run |
 
 **Automatic screenshots.** When you start a stage from the game's session screen (the one

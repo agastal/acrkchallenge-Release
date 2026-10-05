@@ -5,6 +5,25 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.13.0] - 2026-10-05
+
+A time the game does not save is no longer lost: it reaches the site and waits for the organiser.
+
+### New
+
+- Now and then the game finishes a stage without saving the time. The app now sends it anyway, with the
+  time on its clock and the pictures of the road: you get "Run waiting for validation", the overlay says
+  "sent · waiting for validation", and the organiser checks stage, car, weather and penalty before it
+  counts. A challenge attempt waits for it instead of being lost, and the recording started for the
+  attempt stops by itself as after any other finish.
+- With every time the app also sends the stage and car names the game shows, so the site recognises them
+  when a time arrives that the game did not save.
+
+### Changed
+
+- The pictures of the road at the start and after the finish are sharper (the same size as the session
+  screen), so rain and snow on the road are easier to judge.
+- On a very wide screen or three monitors the pictures keep only the middle part, the screen in front of you.
 ## [0.12.0] - 2026-10-03
 
 Two small pictures of the road with every time, the mouse pointer out of the way, and the recording that

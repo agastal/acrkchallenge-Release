@@ -84,6 +84,7 @@ Cosa arriva al sito, e solo dopo che hai collegato l'app:
 | --- | --- |
 | il nome pilota che scegli (va bene un soprannome) | è il nome nelle classifiche |
 | per ogni prova conclusa: tempo, tempi intermedi, penalità, prova, auto, meteo, ora del giorno, data, versione dell'app | le classifiche |
+| una prova conclusa che il gioco non ha salvato: il tempo del cronometro dell'app, prova e auto come le mostra il gioco | l'organizzatore, che la controlla prima che conti |
 | **uno screenshot della schermata della sessione del gioco** | verificare la configurazione della prova |
 
 **Screenshot automatici.** Quando avvii una prova dalla schermata della sessione del gioco
