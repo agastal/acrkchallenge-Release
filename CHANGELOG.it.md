@@ -5,6 +5,19 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.13.1] - 2026-10-08
+
+Un doppio clic sull'icona non ferma più la registrazione appena avviata.
+
+### Correzioni
+
+- Un doppio clic sull'icona nell'area di notifica avviava la registrazione e la fermava subito, e le
+  prove guidate dopo non venivano registrate. Ora un secondo clic entro un secondo dal primo viene
+  ignorato: un clic avvia la registrazione, il successivo (più tardi) la ferma.
+- I dati inviati per l'assistenza ora dicono cosa ha fermato ogni registrazione (l'icona, il menu,
+  una scorciatoia, il pannello pilota, la chiusura del gioco, la fine di un tentativo), così
+  l'organizzatore trova prima la causa.
+
 ## [0.13.0] - 2026-10-05
 
 Un tempo che il gioco non salva non va più perso: arriva al sito e aspetta l'organizzatore.

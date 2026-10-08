@@ -5,6 +5,19 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.13.1] - 2026-10-08
+
+A double click on the icon no longer stops the recording it has just started.
+
+### Fixed
+
+- A double click on the tray icon used to start the recording and stop it at once, so the stages
+  driven afterwards were not recorded. A second click within a second of the first is now ignored:
+  one click starts the recording, the next one (later) stops it.
+- When you send diagnostics, they now say what stopped each recording (the icon, the menu, a
+  shortcut, the driver panel, the game closing, the end of an attempt), so the organiser finds the
+  cause sooner.
+
 ## [0.13.0] - 2026-10-05
 
 A time the game does not save is no longer lost: it reaches the site and waits for the organiser.
