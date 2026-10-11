@@ -5,6 +5,16 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.14.0] - 2026-10-11
+
+Fog is now a weather of its own.
+
+### New
+
+- Two new conditions, *fog* and *night, fog*: a run in light or heavy fog is no longer counted as
+  dry. The driver panel and the Challenges window show them by name, and the gap to your record
+  compares a run in fog only with your runs in fog.
+
 ## [0.13.1] - 2026-10-08
 
 A double click on the icon no longer stops the recording it has just started.

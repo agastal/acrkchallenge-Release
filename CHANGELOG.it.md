@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.14.0] - 2026-10-11
+
+La nebbia ora è un meteo a sé.
+
+### Novità
+
+- Due nuove condizioni, *nebbia* e *notte, nebbia*: una prova con nebbia leggera o fitta non conta
+  più come asciutto. Il pannello pilota e la finestra Sfide le mostrano con il loro nome, e il
+  distacco dal record confronta una prova nella nebbia solo con le tue prove nella nebbia.
+
 ## [0.13.1] - 2026-10-08
 
 Un doppio clic sull'icona non ferma più la registrazione appena avviata.
