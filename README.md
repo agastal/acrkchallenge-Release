@@ -104,7 +104,7 @@ technical note on why the session screen was missing.
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
 the app sends the organiser a zip with the log and telemetry of your latest sessions, its
 settings, the times waiting to be sent, the game's save file and a report on the app and
-Windows. Never the connection key; only the organiser sees it, and it is deleted after 30 days.
+Windows, with the description of the problem if you write one. Never the connection key; only the organiser sees it, and it is deleted after 30 days.
 
 The site does not record IP addresses. Once a day the app asks GitHub whether a newer
 version exists, and downloads its setup from GitHub when you install it; nothing about you is

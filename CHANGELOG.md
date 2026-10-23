@@ -5,6 +5,25 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.15.0] - 2026-10-23
+
+A clearer warning when the stage in the game is not the challenge's, a new icon, and a box to
+describe the problem when you send diagnostics.
+
+### New
+
+- "Send diagnostics to the organiser..." opens a window with a box where you can describe the
+  problem (optional, up to 1000 characters): the organiser reads it with the data.
+- A new icon in the notification area: grey when idle, amber while it waits for the game, red
+  while it records your times.
+
+### Fixed
+
+- The warning "Check the stage" now appears for the stages the game shows with a short name
+  (such as "Wales Cwmbiga"), which it used to miss, and also when you start your attempt with
+  the stage already loaded. The game overlay shows it too. Go back to the menu before the start,
+  or the attempt is retired.
+
 ## [0.14.0] - 2026-10-11
 
 Fog is now a weather of its own.

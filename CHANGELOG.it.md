@@ -5,6 +5,25 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.15.0] - 2026-10-23
+
+Un avviso più affidabile quando la prova nel gioco non è quella della sfida, una nuova icona e
+uno spazio per descrivere il problema quando invii i dati per l'assistenza.
+
+### Novità
+
+- «Invia dati per l'assistenza...» apre una finestra con uno spazio dove descrivere il problema
+  (facoltativo, fino a 1000 caratteri): l'organizzatore lo legge insieme ai dati.
+- Una nuova icona nell'area di notifica: grigia a riposo, ambra mentre aspetta il gioco, rossa
+  mentre registra i tuoi tempi.
+
+### Correzioni
+
+- L'avviso «Controlla la prova» ora compare anche per le prove che il gioco mostra con un nome
+  corto (come «Galles Cwmbiga»), che prima sfuggivano, e anche quando avvii il tentativo con la
+  prova già caricata. Lo mostra anche l'overlay sul gioco. Torna al menu prima della partenza,
+  altrimenti il tentativo viene ritirato.
+
 ## [0.14.0] - 2026-10-11
 
 La nebbia ora è un meteo a sé.
