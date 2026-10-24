@@ -5,6 +5,19 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.16.0] - 2026-10-24
+
+The first step towards racing other drivers' times: each finished stage now goes to the site
+with its trace.
+
+### New
+
+- With each finished stage the app sends its trace: the distance covered about four times a
+  second, from the start line to the finish (no position on the map, no steering, throttle or
+  brake). The site keeps it only for your best time on each stage, car and conditions. It will
+  let a coming version show, while driving, the gap to another driver's time. Nothing changes
+  in what you see yet.
+
 ## [0.15.0] - 2026-10-23
 
 A clearer warning when the stage in the game is not the challenge's, a new icon, and a box to

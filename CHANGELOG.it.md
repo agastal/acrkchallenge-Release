@@ -5,6 +5,19 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.16.0] - 2026-10-24
+
+Il primo passo verso la sfida ai tempi degli altri piloti: ogni prova conclusa arriva al sito
+con la sua traccia.
+
+### Novità
+
+- Con ogni prova conclusa l'app invia la sua traccia: la distanza percorsa circa quattro volte
+  al secondo, dal via all'arrivo (nessuna posizione sulla mappa, niente sterzo, acceleratore o
+  freno). Il sito la conserva solo per il tuo miglior tempo su ogni prova, auto e condizioni.
+  Servirà a una prossima versione per mostrare durante la guida il distacco dal tempo di un altro
+  pilota. Per ora non cambia niente in quello che vedi.
+
 ## [0.15.0] - 2026-10-23
 
 Un avviso più affidabile quando la prova nel gioco non è quella della sfida, una nuova icona e
