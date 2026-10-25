@@ -64,8 +64,9 @@ no CPU. Disk space, network and how to uninstall without leaving anything behind
    under `^`).
    The first time, **Settings** asks for your driver name, the one shown on the
    leaderboards.
-3. From its menu choose **Connect to the site...**. A balloon shows a code: the
-   organiser approves it, and the menu then reads *Connected as &lt;name&gt;*.
+3. From its menu choose **Connect to the site...**. A new driver name is approved at once
+   (a second PC of a known name waits for the organiser): the menu then reads *Connected as
+   &lt;name&gt;* and a welcome page opens in your browser.
 4. Drive. Each finished stage reaches the site by itself.
 5. For a challenge with limited attempts, open **Challenges...**, pick the stage and press
    **Start my attempt** *before* driving it.

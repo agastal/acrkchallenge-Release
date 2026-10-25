@@ -5,6 +5,23 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.17.0] - 2026-10-25
+
+Un benvenuto per i nuovi piloti, e le immagini inviate con ogni prova corrette sugli schermi
+con il ridimensionamento di Windows.
+
+### Novità
+
+- Quando il collegamento al sito è approvato, l'app apre nel browser una pagina di benvenuto
+  con il tuo nome: come funzionano il time attack e le sfide, come chiedere aiuto, la guida e il
+  Discord. Con il gioco aperto aspetta: un clic sulla notifica **Collegato** la apre.
+
+### Correzioni
+
+- Con il ridimensionamento dello schermo di Windows sopra il 100% (125%, 150%, 200%...), le
+  immagini inviate con ogni prova mostravano solo l'angolo in alto a sinistra dello schermo.
+  Ora mostrano tutta la finestra del gioco.
+
 ## [0.16.0] - 2026-10-24
 
 Il primo passo verso la sfida ai tempi degli altri piloti: ogni prova conclusa arriva al sito

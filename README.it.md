@@ -65,8 +65,9 @@ memoria e quasi niente CPU. Spazio su disco, rete e come disinstallarla senza la
    nascosto sotto `^`).
    La prima volta **Impostazioni** chiede il tuo nome pilota, quello che compare nelle
    classifiche.
-3. Dal suo menu scegli **Collega al sito...**. Un avviso mostra un codice:
-   l'organizzatore lo approva, e il menu diventa *Collegato come &lt;nome&gt;*.
+3. Dal suo menu scegli **Collega al sito...**. Un nome pilota nuovo è approvato subito (un
+   secondo PC di un nome già noto aspetta l'organizzatore): il menu diventa *Collegato come
+   &lt;nome&gt;* e nel browser si apre una pagina di benvenuto.
 4. Guida. Ogni prova conclusa arriva al sito da sola.
 5. Per una sfida con tentativi limitati apri **Sfide...**, scegli la prova e premi **Avvia il
    mio tentativo** *prima* di guidarla.

@@ -5,6 +5,22 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.17.0] - 2026-10-25
+
+A welcome for new drivers, and the pictures sent with each stage fixed on screens with Windows
+scaling.
+
+### New
+
+- Once your connection to the site is approved, the app opens a welcome page in your browser,
+  with your name: how the time attack and the challenges work, how to ask for help, the guide
+  and the Discord. With the game open it waits: a click on the **Connected** notification opens it.
+
+### Fixed
+
+- With Windows display scaling above 100% (125%, 150%, 200%...), the pictures sent with each
+  stage showed only the top left corner of the screen. They now show the whole game window.
+
 ## [0.16.0] - 2026-10-24
 
 The first step towards racing other drivers' times: each finished stage now goes to the site
