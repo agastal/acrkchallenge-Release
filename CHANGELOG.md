@@ -5,6 +5,19 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.18.0] - 2026-10-28
+
+Weeklies and multi-stages told apart at a glance, and the weather of Rally Weekend stages known
+without waiting for the organiser.
+
+### New
+
+- The **Challenges** window says what kind of event each stage belongs to: **WEEKLY** in yellow
+  or **MULTI-STAGE** in orange, before the event's name. The driver panel's list names it too.
+- A stage driven in the game's **Rally Weekend** now reaches the site with its weather and hour
+  (night included), even when it is not your best on that stage and car: no more waiting for
+  the organiser to check the weather from the picture.
+
 ## [0.17.0] - 2026-10-25
 
 A welcome for new drivers, and the pictures sent with each stage fixed on screens with Windows

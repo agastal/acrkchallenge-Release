@@ -5,6 +5,20 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.18.0] - 2026-10-28
+
+Weekly e multistage riconoscibili a colpo d'occhio, e il meteo delle prove del Rally Weekend
+noto senza aspettare l'organizzatore.
+
+### Novità
+
+- La finestra **Sfide** dice a che tipo di evento appartiene ogni prova: **WEEKLY** in giallo
+  o **MULTI-STAGE** in arancione, prima del nome dell'evento. Anche l'elenco del pannello pilota
+  lo indica.
+- Una prova guidata nel **Rally Weekend** del gioco arriva al sito con il suo meteo e la sua ora
+  (notte compresa), anche quando non è il tuo miglior tempo su quella prova e quell'auto: niente
+  più attesa che l'organizzatore controlli il meteo dalla foto.
+
 ## [0.17.0] - 2026-10-25
 
 Un benvenuto per i nuovi piloti, e le immagini inviate con ogni prova corrette sugli schermi
