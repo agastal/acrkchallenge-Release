@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.18.1] - 2026-10-31
+
+Una correzione per i tentativi avviati con una prova già in corso.
+
+### Correzioni
+
+- **Avvia il mio tentativo** premuto con una prova già in corso (per esempio dal menu di pausa
+  del gioco) non brucia più il tentativo quando ricominci la prova: una prova che l'app trova già
+  iniziata non conta mai, e il tentativo parte con la prova successiva dalla linea di partenza.
+
 ## [0.18.0] - 2026-10-28
 
 Weekly e multistage riconoscibili a colpo d'occhio, e il meteo delle prove del Rally Weekend

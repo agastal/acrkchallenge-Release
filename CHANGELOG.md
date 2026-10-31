@@ -5,6 +5,16 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.18.1] - 2026-10-31
+
+A fix for attempts started with a stage already under way.
+
+### Fixed
+
+- **Start my attempt** pressed with a stage already under way (for example from the game's pause
+  menu) no longer burns the attempt when you restart the stage: a run the app joins midway never
+  counts, and the attempt starts with the next run from the start line.
+
 ## [0.18.0] - 2026-10-28
 
 Weeklies and multi-stages told apart at a glance, and the weather of Rally Weekend stages known
