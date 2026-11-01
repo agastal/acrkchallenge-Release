@@ -88,6 +88,7 @@ Cosa arriva al sito, e solo dopo che hai collegato l'app:
 | per ogni prova conclusa, la sua traccia: la distanza percorsa circa quattro volte al secondo, dal via all'arrivo (conservata solo per il tuo miglior tempo su ogni prova, auto e condizioni) | il distacco da quel tempo durante la guida, anche per altri piloti che lo sfidano |
 | una prova conclusa che il gioco non ha salvato: il tempo del cronometro dell'app, prova e auto come le mostra il gioco | l'organizzatore, che la controlla prima che conti |
 | **uno screenshot della schermata della sessione del gioco** | verificare la configurazione della prova |
+| per una prova di un rally preparato dall'app: le regole di gara del Rally Weekend (danni, usura, guasti, penalità, riavvio, Hardcore) | verificare che siano quelle del rally |
 
 **Screenshot automatici.** Quando avvii una prova dalla schermata della sessione del gioco
 ("Prove libere", con prova, auto e meteo), acrk-tray cattura un'immagine di quella schermata e
@@ -103,6 +104,11 @@ via e una qualche secondo dopo l'arrivo, e le invia con quella prova accanto all
 mostrano quanta neve o acqua c'è sulla strada, e se è cambiata. Se non ha visto la schermata della
 sessione prima del caricamento, l'immagine dopo l'arrivo la sostituisce, intera, con una breve nota
 tecnica sul perché mancava.
+
+**Rally preparati dall'app.** Solo quando premi *Prepara il rally* nella finestra Sfide, e dopo
+una conferma, l'app scrive il rally (prove, meteo, ora, auto, regole) nel Rally Weekend del
+salvataggio del gioco, a gioco chiuso, dopo averne tenuto una copia in
+`%LOCALAPPDATA%\acrk-tray\save-backups`. Il resto del salvataggio non viene toccato.
 
 **Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),
 l'app manda all'organizzatore uno zip con il registro e la telemetria delle ultime sessioni, le

@@ -5,6 +5,24 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.19.0] - 2026-11-01
+
+Rallies on the game's Rally Weekend, starting with a provisional test, and a clearer word when a
+run arrives after its challenge has closed.
+
+### New
+
+- **Rallies** of the site are driven in the game's **Rally Weekend**: in the **Challenges** window a rally
+  has a card of its own (violet **TEST WE RALLY** for the test) with the state of each stage, and the button
+  **Prepare the rally**. With the game closed, it writes the rally (stages, weather and hour of each, car,
+  race rules) into the game's Rally Weekend, after keeping a copy of the save, and starts recording times.
+  Free practice and time attack results are not touched. Then in the game: Racing > Rally > Rally Weekend >
+  START RALLY.
+- After each rally stage a notice says whether it counts, or why not (weather, hour, car or race rules
+  changed in the menu). Restarts are allowed: the first result of each stage counts.
+- A run on a challenge that closed in the last days shows **Challenge closed** with the day and hour it
+  closed, and the game overlay says *time attack only · challenge closed* (or *· no attempt armed*).
+
 ## [0.18.1] - 2026-10-31
 
 A fix for attempts started with a stage already under way.

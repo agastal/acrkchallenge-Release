@@ -5,6 +5,24 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.19.0] - 2026-11-01
+
+I rally sul Rally Weekend del gioco, a partire da un test provvisorio, e un avviso più chiaro quando
+una prova arriva dopo la chiusura della sua sfida.
+
+### Novità
+
+- I **rally** del sito si corrono nel **Rally Weekend** del gioco: nella finestra **Sfide** un rally ha una
+  scheda sua (viola, **TEST WE RALLY** per il test) con lo stato di ogni prova, e il pulsante
+  **Prepara il rally**. A gioco chiuso scrive il rally (prove, meteo e ora di ognuna, auto, regole di gara)
+  nel Rally Weekend del gioco, dopo aver tenuto una copia del salvataggio, e avvia la registrazione dei
+  tempi. I risultati di prove libere e time attack non vengono toccati. Poi nel gioco: Racing > Rally >
+  Rally Weekend > START RALLY.
+- Dopo ogni prova del rally un avviso dice se conta, o perché no (meteo, ora, auto o regole di gara
+  cambiati nel menu). I riavvii sono permessi: conta il primo risultato di ogni prova.
+- Una prova su una sfida chiusa da pochi giorni mostra **Sfida chiusa** con il giorno e l'ora della
+  chiusura, e l'overlay sul gioco dice *solo time attack · sfida chiusa* (o *· nessun tentativo armato*).
+
 ## [0.18.1] - 2026-10-31
 
 Una correzione per i tentativi avviati con una prova già in corso.

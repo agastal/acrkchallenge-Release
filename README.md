@@ -87,6 +87,7 @@ What goes to the site, and only after you connect the app:
 | for each finished stage, its trace: the distance covered about four times a second, start to finish (kept for your best time on each stage, car and conditions only) | the gap to that time while driving, also for other drivers racing against it |
 | a finished stage the game did not save: the time on the app's clock, stage and car as the game shows them | the organiser, who checks it before it counts |
 | **a screenshot of the game's session screen** | checking the setup of the run |
+| for a stage of a rally the app prepared: the Rally Weekend's race rules (damage, wear, failures, penalties, restart, Hardcore) | checking they are the rally's |
 
 **Automatic screenshots.** When you start a stage from the game's session screen (the one
 showing stage, car and weather before the stage loads), acrk-tray takes a picture of that
@@ -102,6 +103,11 @@ seconds after the finish, and sends them with that run beside the session screen
 much snow or water is on the road, and whether it changed. If it did not see the session screen
 before the stage loaded, the picture after the finish goes in its place, whole, with a short
 technical note on why the session screen was missing.
+
+**Rallies prepared by the app.** Only when you press *Prepare the rally* in the Challenges
+window, and after a confirmation, the app writes the rally (stages, weather, hour, car, rules)
+into the Rally Weekend of the game's save file, with the game closed, after keeping a copy in
+`%LOCALAPPDATA%\acrk-tray\save-backups`. Nothing else in the save is touched.
 
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
 the app sends the organiser a zip with the log and telemetry of your latest sessions, its
