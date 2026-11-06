@@ -5,6 +5,16 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.19.1] - 2026-11-06
+
+A clearer word while a run waits for the organiser.
+
+### Changed
+
+- In **Challenges...** an attempt whose run the game did not save, and which waits for the organiser to
+  check it, now shows **Waiting for validation** instead of **Running**: there is nothing to do but wait,
+  restarting the app or the PC changes nothing.
+
 ## [0.19.0] - 2026-11-01
 
 Rallies on the game's Rally Weekend, starting with a provisional test, and a clearer word when a

@@ -5,6 +5,16 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.19.1] - 2026-11-06
+
+Un avviso più chiaro mentre una prova aspetta l'organizzatore.
+
+### Modifiche
+
+- In **Sfide...** un tentativo la cui prova il gioco non ha salvato, e che aspetta il controllo
+  dell'organizzatore, ora dice **In attesa di convalida** invece di **In corso**: non c'è niente da fare se
+  non aspettare, riavviare l'app o il PC non cambia nulla.
+
 ## [0.19.0] - 2026-11-01
 
 I rally sul Rally Weekend del gioco, a partire da un test provvisorio, e un avviso più chiaro quando
