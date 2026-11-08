@@ -105,9 +105,11 @@ mostrano quanta neve o acqua c'è sulla strada, e se è cambiata. Se non ha vist
 sessione prima del caricamento, l'immagine dopo l'arrivo la sostituisce, intera, con una breve nota
 tecnica sul perché mancava.
 
-**Rally preparati dall'app.** Solo quando premi *Prepara il rally* nella finestra Sfide, e dopo
-una conferma, l'app scrive il rally (prove, meteo, ora, auto, regole) nel Rally Weekend del
-salvataggio del gioco, a gioco chiuso, dopo averne tenuto una copia in
+**Rally preparati dall'app.** Quando nel sito c'è un Real Rally aperto, l'app lo scrive da sola
+(prove, meteo, ora, auto, regole) nel Rally Weekend del salvataggio del gioco, sempre a gioco
+chiuso (all'avvio, alla chiusura del gioco e ogni 30 minuti; si spegne in Impostazioni), oppure
+quando premi *Prepara il rally* nella finestra Sfide. Un Rally Weekend tuo in corso non viene
+toccato. Prima tiene una copia del salvataggio in
 `%LOCALAPPDATA%\acrk-tray\save-backups`. Il resto del salvataggio non viene toccato.
 
 **Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),

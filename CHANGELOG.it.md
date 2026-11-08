@@ -5,6 +5,36 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.20.0] - 2026-11-08
+
+Il Real Rally: l'app lo prepara da sola, e ogni prova conta al primo colpo.
+
+### Novità
+
+- **Il Real Rally aperto si prepara da solo**: con *Prepara da sola il Real Rally aperto, a gioco chiuso*
+  in **Impostazioni** (attiva di serie) l'app lo scrive nel Rally Weekend del gioco all'avvio, quando
+  chiudi il gioco e ogni 30 minuti, e un fumetto dice quando è pronto. Con un Real Rally nel gioco la
+  registrazione dei tempi parte all'apertura del gioco. **Prepara il rally** in **Sfide...** funziona
+  ancora a mano.
+- Un Real Rally già chiuso ancora in corso nel gioco viene sostituito da quello aperto, e il fumetto lo
+  dice; un Rally Weekend tuo in corso non viene mai toccato: un fumetto ti chiede di finirlo o di ritirarti.
+- **Ogni prova al primo colpo**: un riavvio dal menu di pausa, o il gioco chiuso a metà prova o prima che
+  il risultato sia salvato, ritira la prova (*riavvio a metà prova*).
+- Le **condizioni del tracciato** scelte dall'organizzatore (strada bagnata, neve, aderenza) vengono
+  scritte nel Rally Weekend e controllate: cambiate nel menu, la prova non conta.
+- Un Real Rally può avere prove in più località.
+
+### Modifiche
+
+- I rally del sito nell'app si chiamano **Real Rally**.
+- Una prova di un Real Rally viene mandata senza foto: meteo, ora, condizioni del tracciato e regole
+  vengono letti dal salvataggio del gioco e controllati dal sito.
+
+### Correzioni
+
+- Un salvataggio con una prova aggiunta da una mod (Sando Rally, ACR Extra Stages) non impedisce più
+  di preparare il rally.
+
 ## [0.19.1] - 2026-11-06
 
 Un avviso più chiaro mentre una prova aspetta l'organizzatore.

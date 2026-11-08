@@ -5,6 +5,37 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.20.0] - 2026-11-08
+
+The Real Rally: the app prepares it by itself, and every stage counts at the first go.
+
+### New
+
+- **The open Real Rally is prepared by itself**: with *Prepare the open Real Rally by itself, with the
+  game closed* in **Settings** (on by default) the app writes it into the game's Rally Weekend at start,
+  when you close the game and every 30 minutes, and a balloon says when it is ready. With a Real Rally in
+  the game, the recording of times starts when the game opens. **Prepare the rally** in **Challenges...**
+  still works by hand.
+- A Real Rally that has closed and is still under way in the game is replaced by the open one, and the
+  balloon says so; a Rally Weekend of your own in progress is never touched: a balloon asks you to finish
+  it or retire.
+- **Every stage at the first go**: a restart from the pause menu, or the game closed mid-stage or before
+  the result is saved, retires the stage (*restart mid-stage*).
+- The **track conditions** set by the organiser (road wetness, snow, grip) are written into the Rally
+  Weekend and checked: changed in the menu, the stage does not count.
+- A Real Rally can hold stages in several locations.
+
+### Changed
+
+- Rallies of the site are called **Real Rally** in the app.
+- A Real Rally stage is sent with no pictures: weather, hour, track conditions and rules are read from
+  the game's save and checked by the site.
+
+### Fixed
+
+- A save holding a stage added by a mod (Sando Rally, ACR Extra Stages) no longer stops the rally
+  from being prepared.
+
 ## [0.19.1] - 2026-11-06
 
 A clearer word while a run waits for the organiser.

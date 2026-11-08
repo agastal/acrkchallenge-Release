@@ -104,9 +104,11 @@ much snow or water is on the road, and whether it changed. If it did not see the
 before the stage loaded, the picture after the finish goes in its place, whole, with a short
 technical note on why the session screen was missing.
 
-**Rallies prepared by the app.** Only when you press *Prepare the rally* in the Challenges
-window, and after a confirmation, the app writes the rally (stages, weather, hour, car, rules)
-into the Rally Weekend of the game's save file, with the game closed, after keeping a copy in
+**Rallies prepared by the app.** When the site has an open Real Rally, the app writes it by
+itself (stages, weather, hour, car, rules) into the Rally Weekend of the game's save file, always
+with the game closed (at start, when the game closes and every 30 minutes; it can be turned off
+in Settings), or when you press *Prepare the rally* in the Challenges window. A Rally Weekend of
+your own in progress is left alone. It keeps a copy of the save first in
 `%LOCALAPPDATA%\acrk-tray\save-backups`. Nothing else in the save is touched.
 
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
