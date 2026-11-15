@@ -5,6 +5,38 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.21.0] - 2026-11-15
+
+Gli stage nostri nel gioco: l'app installa quelli sardi, e il Real Rally registra solo le sue prove.
+
+### Novità
+
+- **Stage della community...** nel menu: installa nel gioco gli stage costruiti dall'organizzatore su strade
+  vere (Sardegna: Monte Lerno, Argentiera, Aggius e Capo Caccia, in entrambi i sensi), a gioco chiuso, e li
+  toglie con **Disinstalla**. Lo scarico riprende da dove si era fermato; ogni file è controllato prima di
+  entrare nel gioco.
+- Dopo un aggiornamento del gioco su Steam l'app spegne gli stage finché non escono quelli per la nuova
+  versione, e avvisa quando ce ne sono di nuovi. Un Real Rally su stage non installati non viene preparato:
+  l'app te lo dice.
+- La disinstallazione di acrk-tray propone di togliere anche gli stage.
+
+### Modifiche
+
+- **Real Rally**: la registrazione dei tempi non parte più all'apertura del gioco, ma quando premi
+  **START RALLY** o carichi una prova del rally con il Rally Weekend in corso (come quando lo riprendi dal
+  parco assistenza). Le prove in altre modalità non vengono più registrate e non possono contare contro il
+  rally. Fermata a mano, riparte alla prossima prova del rally.
+
+### Correzioni
+
+- Un respawn (l'auto rimessa in strada) non viene più preso per un riavvio: non ritira più una prova del
+  Real Rally né un tentativo di una sfida.
+- **Migliore di N**: guidare di nuovo la prova dalla schermata dei risultati, senza armare, ora prende il
+  tentativo successivo; prima quella prova andava solo al time attack.
+- Un riavvio o il ritorno al menu tra un arrivo e il suo risultato non ritira più il tentativo concluso.
+- **Prepara il rally** funziona su un salvataggio il cui Rally Weekend non è stato aperto dall'aggiornamento
+  del gioco del 6 ottobre.
+
 ## [0.20.0] - 2026-11-08
 
 Il Real Rally: l'app lo prepara da sola, e ogni prova conta al primo colpo.

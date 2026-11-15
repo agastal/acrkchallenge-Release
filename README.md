@@ -44,6 +44,8 @@ mirrors or links shared elsewhere.
 - global shortcuts (start, stop, place the overlay) that work with the game in front;
 - optional start when you sign in to Windows;
 - English, Italian, French, German and Spanish interface;
+- **[Community stages](https://github.com/agastal/acrkchallenge-Release/wiki/Community-stages)**:
+  installs in the game the stages the organiser made on real roads (Sardinia), and removes them;
 - installs new versions with one click, or by itself with the game closed.
 
 ## Requirements
@@ -111,6 +113,12 @@ in Settings), or when you press *Prepare the rally* in the Challenges window. A 
 your own in progress is left alone. It keeps a copy of the save first in
 `%LOCALAPPDATA%\acrk-tray\save-backups`. Nothing else in the save is touched.
 
+**Community stages.** Only if you choose it from the menu (*Community stages...*), the app
+downloads the organiser's stages from GitHub, checks their signature and SHA-256 and copies them with
+the game closed into the game's `~mods` folder (files `zz_acrxs_*`); with stages installed it asks
+GitHub whether new ones are out. Nothing about you is sent. *Uninstall*, or uninstalling the app,
+removes them.
+
 **Diagnostics.** Only if you choose it from the menu (*Send diagnostics to the organiser...*),
 the app sends the organiser a zip with the log and telemetry of your latest sessions, its
 settings, the times waiting to be sent, the game's save file and a report on the app and
@@ -126,6 +134,7 @@ On your PC:
 | --- | --- |
 | settings, connection key (protected with Windows DPAPI) | `%LOCALAPPDATA%\acrk-tray` |
 | recorded sessions: telemetry, copies of the save file, screenshots | `%TEMP%\acr-sessions` |
+| downloaded community stages | `%LOCALAPPDATA%\acrk-tray\stages` |
 
 Uninstalling offers to delete both folders. More in
 [Privacy and data](https://github.com/agastal/acrkchallenge-Release/wiki/Privacy-and-data).

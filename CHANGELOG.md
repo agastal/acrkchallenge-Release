@@ -5,6 +5,37 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.21.0] - 2026-11-15
+
+Our own stages in the game: the app installs the Sardinian ones, and the Real Rally records only its own stages.
+
+### New
+
+- **Community stages...** in the menu: installs in the game the stages the organiser built on real roads
+  (Sardinia: Monte Lerno, Argentiera, Aggius and Capo Caccia, both ways), with the game closed, and removes
+  them with **Uninstall**. Downloads resume where they stopped; every file is checked before it goes in.
+- After a game update on Steam the app turns the stages off until those for the new version are out, and
+  says when a newer set is ready. A Real Rally on stages not installed is not prepared: the app tells you.
+- Uninstalling acrk-tray offers to remove the stages too.
+
+### Changed
+
+- **Real Rally**: the recording of times no longer starts when the game opens, but when you press
+  **START RALLY** or load a stage of the rally with the Rally Weekend under way (as when you take it up again
+  from the service park). Practice in other modes is no longer recorded and cannot count against the rally.
+  Stopped by hand, it starts again at the next stage of the rally.
+
+### Fixed
+
+- A respawn (car put back on the road) is no longer taken for a restart: it did not retire a Real Rally
+  stage or a challenge attempt.
+- **Best of N**: driving the stage again from the results screen, without arming, now takes the next
+  attempt; before, that run went to the time attack only.
+- A restart or a return to the menu between a finish and its result no longer retires the attempt that
+  finished.
+- **Prepare the rally** works on a game save whose Rally Weekend has not been opened since the game update
+  of October 6.
+
 ## [0.20.0] - 2026-11-08
 
 The Real Rally: the app prepares it by itself, and every stage counts at the first go.

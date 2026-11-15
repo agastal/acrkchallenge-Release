@@ -45,6 +45,8 @@ da link condivisi altrove.
 - scorciatoie globali (avvia, ferma, posiziona l'overlay) che funzionano con il gioco in primo piano;
 - avvio all'accesso a Windows, se lo vuoi;
 - interfaccia in italiano, inglese, francese, tedesco e spagnolo;
+- **[Stage della community](https://github.com/agastal/acrkchallenge-Release/wiki/Stage-della-community)**:
+  installa nel gioco gli stage fatti dall'organizzatore su strade vere (la Sardegna), e li toglie;
 - installa le nuove versioni con un clic, o da sola a gioco chiuso.
 
 ## Requisiti
@@ -112,6 +114,12 @@ quando premi *Prepara il rally* nella finestra Sfide. Un Rally Weekend tuo in co
 toccato. Prima tiene una copia del salvataggio in
 `%LOCALAPPDATA%\acrk-tray\save-backups`. Il resto del salvataggio non viene toccato.
 
+**Stage della community.** Solo se lo scegli dal menu (*Stage della community...*), l'app scarica
+da GitHub gli stage dell'organizzatore, ne controlla firma e SHA-256 e li copia a gioco chiuso nella
+cartella `~mods` del gioco (file `zz_acrxs_*`); con degli stage installati controlla su GitHub se ce ne
+sono di nuovi. Non viene inviato niente che ti riguardi. *Disinstalla*, o la disinstallazione
+dell'app, li toglie.
+
 **Dati per l'assistenza.** Solo se lo scegli dal menu (*Invia dati per l'assistenza...*),
 l'app manda all'organizzatore uno zip con il registro e la telemetria delle ultime sessioni, le
 sue impostazioni, i tempi da inviare, il salvataggio del gioco e un rapporto su app e Windows,
@@ -128,6 +136,7 @@ Sul tuo PC:
 | --- | --- |
 | impostazioni, chiave di collegamento (protetta con Windows DPAPI) | `%LOCALAPPDATA%\acrk-tray` |
 | sessioni registrate: telemetria, copie del salvataggio, screenshot | `%TEMP%\acr-sessions` |
+| stage della community scaricati | `%LOCALAPPDATA%\acrk-tray\stages` |
 
 La disinstallazione propone di cancellare entrambe le cartelle. Altro in
 [Privacy e dati](https://github.com/agastal/acrkchallenge-Release/wiki/Privacy-e-dati).
