@@ -5,6 +5,13 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.21.1] - 2026-11-15
+
+### Correzioni
+
+- **Real Rally**: la registrazione dei tempi parte già alla prima tappa dopo **START RALLY**; con la 0.21.0
+  partiva solo dalla seconda.
+
 ## [0.21.0] - 2026-11-15
 
 Gli stage nostri nel gioco: l'app installa quelli sardi, e il Real Rally registra solo le sue prove.
