@@ -5,6 +5,24 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.21.2] - 2026-11-19
+
+For the game's 0.7 update: the community stages step aside before the game opens, so its new Swedish stages show.
+
+### Fixed
+
+- After a game update on Steam the community stages are turned off before you open the game, also when the
+  update finished with the app already running; before, the game's new stages (the Swedish ones of 0.7) stayed
+  hidden until the game was closed once.
+- A best time with a penalty reaches the site with its weather; before, it waited for the organiser to check it.
+- The community stages are not installed, and a Real Rally on them is not prepared, while another list of stages
+  in the game's folder would hide them (such as a WRC Generations pack): the app says which file.
+
+### Changed
+
+- **Send diagnostics to the organiser...** also reports where the game is installed, its version and the
+  community stages file by file.
+
 ## [0.21.1] - 2026-11-15
 
 ### Fixed
