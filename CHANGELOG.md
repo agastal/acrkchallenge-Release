@@ -5,6 +5,17 @@
 Every release of acrk-tray, newest first. Versions follow `MAJOR.MINOR.PATCH`; the setup of
 each one is on the [Releases](https://github.com/agastal/acrkchallenge-Release/releases) page.
 
+## [0.21.3] - 2026-11-22
+
+For the Rally di Svezia: Real Rallies on the game's Swedish stages are prepared like the others.
+
+### Fixed
+
+- **Real Rally**: a rally on the Swedish stages of the game's 0.7 is written into the game; before, the app refused it.
+- **Real Rally**: the rally is prepared also after you created a **Weekend di rally** lobby in the game's
+  multiplayer (Multiplayer › Create lobby); since the game's update of 19 November such a lobby made the app
+  stop, saying the game had no Rally Weekend.
+
 ## [0.21.2] - 2026-11-19
 
 For the game's 0.7 update: the community stages step aside before the game opens, so its new Swedish stages show.
