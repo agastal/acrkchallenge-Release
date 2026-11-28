@@ -5,6 +5,20 @@
 Tutte le versioni di acrk-tray, dalla più recente. Le versioni seguono `MAJOR.MINOR.PATCH`;
 il setup di ognuna è nella pagina [Releases](https://github.com/agastal/acrkchallenge-Release/releases).
 
+## [0.22.0] - 2026-11-28
+
+Per il Rallye Sanremo: gli stage della community ora sono divisi per località, Sardegna e Sanremo, e scegli tu quali
+avere nel gioco.
+
+### Novità
+
+- **Stage della community...** mostra una scheda per località (Sardegna, Sanremo) con i suoi stage, i chilometri, il
+  fondo e quanto pesa. Spunta le località che vuoi e premi **Applica**: l'app scarica quello che manca e toglie quelle
+  senza spunta, così puoi tenere solo la località del Real Rally della settimana e risparmiare spazio.
+- Quando esce una release nuova degli stage, tutte le località partono spuntate; togli la spunta a quelle che non vuoi
+  prima di **Applica**.
+- Se un Real Rally si corre su una località che non hai nel gioco, l'app ti dice quale spuntare.
+
 ## [0.21.3] - 2026-11-22
 
 Per il Rally di Svezia: i Real Rally sulle prove svedesi del gioco si preparano come gli altri.
